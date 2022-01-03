@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>DevHack</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <img src="images/Logo2.jpeg" alt="">
+        <nav id="nav">
+            <button id="btn-mobile" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a onclick="toggleMenu(this)" href="index.html">HOME</a></li>
+                <li><a onclick="toggleMenu(this)" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" href="#aboutus">ABOUT US</a></li>
+                <li><a onclick="toggleMenu(this)" href="#groups">GROUPS</a></li>
+                <li><a onclick="toggleMenu(this)" href="/">NEWS</a></li>
+            </ul>
+        </nav>
+        <script src="JS/menu.js"></script>
+    </header>
+    <main>
+        <!-- Banner -->
+        <figure id="container">
+            <img id="gif" src="images/DQnQ.gif" alt="">
+            <figcaption>Welcome to Hacking</figcaption>
+            <a href="">NEWS</a>
+        </figure>
+        
+        <div id="pillars">
+            <h3 class="boingInUp">
+                Confidentiality
+            </h3>
+            <h3>
+                Integrity
+            </h3>
+            <h3>
+                Availability
+            </h3>
+        </div>
+        <!-- Section about us -->
+        <div id="title">
+            <div id="aboutus">
+                <h1>About Us</h1>
+            </div>
+        </div>
+        <section id="sec-about">
+            <div id="about-us">
+                
+                <div id="about-img">
+                    <img src="images/Logo1.jpeg" alt="" srcset="">
+                </div>
+                <div id="about-text">
+                    <h3>The DevHack</h3>
+                    <p>DevHack came with the purpose
+                    to provide content sharing
+                    and information within the community of ethical hackers,
+                    and programmers.
+                    We value security and knowledge.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section groups -->
+        <div id="title">
+            <div id="groups">
+                <h1>Groups</h1>
+            </div>
+        </div>
+        <section id="sec-groups">
+            
+            <div id="groups-text">
+                <div id="g-text">
+                    
+                        <h4>READ THE RULES!</h4>
+                        <ul>
+                            <li>1- Respect everyone regardless of anything.</li>
+                            <br>
+                            <li>2- No pornography is allowed.</li>
+                            <br>
+                            <li>3- It is not allowed any kind of disclosure (except about Hacking or Programming).</li>
+                            <br>
+                            <li>4- Prohibited sales of services "HACKERS" will result in BAN.</li>
+                            <br>
+                            <li>5- Prohibited sale or disclosure of CC and related, it will result in BAN</li>
+                            <br>
+                            <li>6- It is forbidden to post personal data of third parties.</li>
+                            <br>
+                            <li>7- Ghost result in BAN</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>    
+            <div id="groups-icons">
+                <a href="https://chat.whatsapp.com/LxiJSqebbi5Bdqipmr3zbi"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>Whatsapp</a>
+                <a href="https://t.me/joinchat/G04id3ohKa796HSx"><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"/>Telegram</a>
+                <a href="https://discord.gg/SyzZK42Uky"><img src="https://img.icons8.com/fluency/48/000000/discord-new-logo.png"/>Discord</a>
+            </div>
+            
+        </section>
+        
+
+
+    </main>
+</body>
+</html>
