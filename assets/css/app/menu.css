@@ -24,6 +24,9 @@ a:hover{
 }
 
 #header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
